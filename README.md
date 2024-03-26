@@ -1,7 +1,7 @@
 Interactive data visaulization via hierachical cluster analysis (HCA).
 Original source code from: https://jokergoo.github.io/InteractiveComplexHeatmap/articles/share.html
 
-There are tow versions of the HCA, one for average values (across 6 visits) and the other for values per each single visit.
+There are two versions of the HCA, one for average values (across 6 visits) and the other for values per each single visit.
 In each folder:
 htShiny.R containing R code that generates the interactive heatmap. 
 htShiny.RData containing all R objects needed for heatmap (loaded in htShiny.R.) 
