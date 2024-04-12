@@ -14,9 +14,9 @@ RUN Rscript -e 'BiocManager::install(c("InteractiveComplexHeatmap", "ComplexHeat
 
 RUN rm -rf /srv/shiny-server/*
 # copy the single visits application to the folder single-visits
-COPY S3WP_single_visits_interactive_8_font /srv/shiny-server/single-visits
+COPY S3WP_single_visits_interactive_1_font /srv/shiny-server/single-visits
 # copy the average application to the folder average
-COPY S3WP_average_interactive_8_font  /srv/shiny-server/average
+COPY S3WP_average_interactive_1_font  /srv/shiny-server/average
 # copy the homepage
 COPY index.html /srv/shiny-server/index.html
 
