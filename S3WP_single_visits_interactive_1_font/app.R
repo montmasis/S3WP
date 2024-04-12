@@ -26,4 +26,3 @@ server = function(input, output, session) {
 cat('If the shiny app is not automatically opened in the browser, you can manually
 copy the following link and paste it to the browser.');
 shinyApp(ui = ui, server = server)
-
