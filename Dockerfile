@@ -19,6 +19,7 @@ COPY S3WP_single_visits_interactive_1_font /srv/shiny-server/single-visits
 COPY S3WP_average_interactive_1_font  /srv/shiny-server/average
 # copy the homepage
 COPY index.html /srv/shiny-server/index.html
+COPY assets /srv/shiny-server/assets
 
 USER shiny
 
